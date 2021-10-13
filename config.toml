@@ -2,7 +2,7 @@
 # Site Settings
 
 baseURL = "https://starspiritstorm.github.io/"
-title = "Hugo Theme MemE"
+title = "starspiritstorm"
 languageCode = "en"
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
@@ -58,7 +58,10 @@ uglyURLs = false
 
 # Modified date
 [frontmatter]
-    lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
+    date = ['date', 'publishDate', 'lastmod']
+    expiryDate = ['expiryDate']
+    lastmod = [':git', 'lastmod', 'date', 'publishDate']
+    publishDate = ['publishDate', 'date']
 
 # Markdown renderer
 [markup]
@@ -98,17 +101,13 @@ uglyURLs = false
 # Author’s information
 [author]
     # Name
-    name = "reuixiy"
+    name = "starspiritstorm"
     # Email
-    email = "reuixiy@gmail.com"
+    email = "starspiritstorm@gmail.com"
     # Motto or introduction
-    motto = "Viva La Vida"
+    motto = "YOLO"
     # Avatar
     avatar = "/icons/apple-touch-icon.png"
-    # Personal website, default: baseURL
-    website = "https://io-oi.me/"
-    # Twitter
-    twitter = "reuixiy"
 
 # Related content
 [related]
@@ -353,16 +352,13 @@ uglyURLs = false
     siteLogo = "/icons/apple-touch-icon.png"
     # Note: used for JSON-LD, Open Graph
 
-    siteDescription = "MemE is a powerful and highly customizable GoHugo theme for personal blogs."
+    siteDescription = "starspiritstorm personal blogs."
     # Note: used for HTML head meta, JSON-LD,
     #       Open Graph, Atom, RSS
 
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2021-10-13T16:20:43+08:00"
     # ATTENTION: keep this format, change
     #            the number
-
-    siteTwitter = "reuixiy"
-    # Note: used for Twitter Cards
 
 
     ######################################
@@ -1170,10 +1166,6 @@ uglyURLs = false
     shareOnFacebook = true
     shareOnLinkedIn = true
     shareOnTelegram = true
-    shareOnWeibo = true
-    shareOnDouban = true
-    shareOnQQ = true
-    shareOnQzone = true
 
     shareViaQRCode = true
 
