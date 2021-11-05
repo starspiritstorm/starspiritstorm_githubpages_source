@@ -16,7 +16,7 @@ newContentEditor = ""
 
 # i18n
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 # Pluralize titles in lists?
 pluralizeListTitles = false
@@ -45,6 +45,18 @@ paginate = 5
 disablePathToLower = false
 relativeURLs = false
 uglyURLs = false
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    weight = 1
+	contentdir = "content/en/"
+  [languages.zh-tw]
+    languageName = "繁體中文"
+    languageCode = "zh-tw"
+    weight = 2
+    contentdir = "content/zh-tw/"
 
 # URL structure
 [permalinks]
@@ -209,25 +221,25 @@ uglyURLs = false
     #     pre = "internal"
     #     post = "home"
     [[menu.main]]
-        url = "/posts/"
+        url = "/en/posts/"
         name = "Posts"
         weight = 2
         pre = "internal"
         post = "archive"
     [[menu.main]]
-        url = "/categories/"
+        url = "/en/categories/"
         name = "Categories"
         weight = 3
         pre = "internal"
         post = "th"
     [[menu.main]]
-        url = "/tags/"
+        url = "/en/tags/"
         name = "Tags"
         weight = 4
         pre = "internal"
         post = "tags"
     [[menu.main]]
-        url = "/about/"
+        url = "/en/about/"
         name = "About"
         weight = 5
         pre = "internal"
@@ -243,7 +255,48 @@ uglyURLs = false
         identifier = "search"
         post = "search"
 
-
+[languages.zh-tw.menu]
+    ## Menu bar
+    # [[menu.main]]
+    #     url = "/"
+    #     name = "Home"
+    #     weight = 1
+    #     pre = "internal"
+    #     post = "home"
+    [[languages.zh-tw.menu.main]]
+        url = "/zh-tw/posts/"
+        name = "文章"
+        weight = 2
+        pre = "internal"
+        post = "archive"
+    [[languages.zh-tw.menu.main]]
+        url = "/zh-tw/categories/"
+        name = "分類"
+        weight = 3
+        pre = "internal"
+        post = "th"
+    [[languages.zh-tw.menu.main]]
+        url = "/zh-tw/tags/"
+        name = "標籤"
+        weight = 4
+        pre = "internal"
+        post = "tags"
+    [[languages.zh-tw.menu.main]]
+        url = "/zh-tw/about/"
+        name = "關於我"
+        weight = 5
+        pre = "internal"
+        post = "user-circle"
+    [[languages.zh-tw.menu.main]]
+        weight = 6
+        identifier = "theme-switcher"
+    [[languages.zh-tw.menu.main]]
+        weight = 7
+        identifier = "lang-switcher"
+    [[languages.zh-tw.menu.main]]
+        weight = 8
+        identifier = "search"
+        post = "search"
 
 ##########################################
 # Theme Settings
@@ -1290,7 +1343,7 @@ uglyURLs = false
     ######################################
     # Multilingual
 
-    enableLangToggle = false
+    enableLangToggle = true
 
     hideLangToggleInHome = false
 
