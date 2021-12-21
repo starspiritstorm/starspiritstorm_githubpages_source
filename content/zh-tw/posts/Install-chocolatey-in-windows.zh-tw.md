@@ -4,7 +4,7 @@ title: "在 Windows 環境下安裝 Chocolatey"
 author: starspiritstorm
 type: posts
 date: 2021-12-21T14:53:55+08:00
-draft: true
+draft: false
 categories: ["chocolatey"]
 tags: ["windows", "chocolatey"]
 keywords: ["install chocolatey in windows"]
