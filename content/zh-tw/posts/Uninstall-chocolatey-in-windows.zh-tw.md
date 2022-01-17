@@ -28,9 +28,9 @@ keywords: ["install chocolatey in windows"]
 	$env:ChocolateyInstall 
 
 
-![fig1](/figures_for_uninstall_chocolately/fig1.check_chocolately_location.png "Fig1. 檢查 Chocolatey 的位置")
+![fig1](/images/uninstall_chocolately/fig1.check_chocolately_location.png "Fig1. 檢查 Chocolatey 的位置")
 
-![fig2](/figures_for_uninstall_chocolately/fig2.delete_chocolately_folder.png "Fig2. 砍掉 Chocolatey 的資料夾")
+![fig2](/images/uninstall_chocolately/fig2.delete_chocolately_folder.png "Fig2. 砍掉 Chocolatey 的資料夾")
 
 
 ### 移除步驟 2. 環境變數移除 Chocolatey
@@ -39,13 +39,13 @@ keywords: ["install chocolatey in windows"]
 砍掉資料夾以後，還有環境變數的設定要砍
 
 
-![fig3](/figures_for_uninstall_chocolately/fig3.remove_chocolately_from_environment1.png "Fig3. 移除 Environment 內的 Chocolatey 步驟1")
+![fig3](/images/uninstall_chocolately/fig3.remove_chocolately_from_environment1.png "Fig3. 移除 Environment 內的 Chocolatey 步驟1")
 
-![fig4](/figures_for_uninstall_chocolately/fig4.remove_chocolately_from_environment2.png "Fig4. 移除 Environment 內的 Chocolatey 步驟2")
+![fig4](/images/uninstall_chocolately/fig4.remove_chocolately_from_environment2.png "Fig4. 移除 Environment 內的 Chocolatey 步驟2")
 
-![fig5](/figures_for_uninstall_chocolately/fig5.remove_chocolately_from_environment3.png "Fig5. 移除 Environment 內的 Chocolatey 步驟3")
+![fig5](/images/uninstall_chocolately/fig5.remove_chocolately_from_environment3.png "Fig5. 移除 Environment 內的 Chocolatey 步驟3")
 
-![fig6](/figures_for_uninstall_chocolately/fig6.remove_chocolately_from_environment4.png "Fig6. 移除 Environment 內的 Chocolatey 步驟4")
+![fig6](/images/uninstall_chocolately/fig6.remove_chocolately_from_environment4.png "Fig6. 移除 Environment 內的 Chocolatey 步驟4")
 
 
 官方文件顯示有這幾項

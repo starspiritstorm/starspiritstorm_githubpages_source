@@ -30,9 +30,9 @@ if you are not sure where it is, you can use following command.
 	$env:ChocolateyInstall 
 
 
-![fig1](/figures_for_uninstall_chocolately/fig1.check_chocolately_location.png "Fig1. Check Chocolatey location")
+![fig1](/images/uninstall_chocolately/fig1.check_chocolately_location.png "Fig1. Check Chocolatey location")
 
-![fig2](/figures_for_uninstall_chocolately/fig2.delete_chocolately_folder.png "Fig2. Delete Chocolatey Folder")
+![fig2](/images/uninstall_chocolately/fig2.delete_chocolately_folder.png "Fig2. Delete Chocolatey Folder")
 
 
 ### Uninstall step 2. Remove chocolately from environment
@@ -41,13 +41,13 @@ if you are not sure where it is, you can use following command.
 After deleted the Chocolatey folder, you need to remove chocolately from environment.
 
 
-![fig3](/figures_for_uninstall_chocolately/fig3.remove_chocolately_from_environment1.png "Fig3. Remove Chocolatey from Environment step 1")
+![fig3](/images/uninstall_chocolately/fig3.remove_chocolately_from_environment1.png "Fig3. Remove Chocolatey from Environment step 1")
 
-![fig4](/figures_for_uninstall_chocolately/fig4.remove_chocolately_from_environment2.png "Fig4. Remove Chocolatey from Environment step 2")
+![fig4](/images/uninstall_chocolately/fig4.remove_chocolately_from_environment2.png "Fig4. Remove Chocolatey from Environment step 2")
 
-![fig5](/figures_for_uninstall_chocolately/fig5.remove_chocolately_from_environment3.png "Fig5. Remove Chocolatey from Environment step 3")
+![fig5](/images/uninstall_chocolately/fig5.remove_chocolately_from_environment3.png "Fig5. Remove Chocolatey from Environment step 3")
 
-![fig6](/figures_for_uninstall_chocolately/fig6.remove_chocolately_from_environment4.png "Fig6. Remove Chocolatey from Environment step 4")
+![fig6](/images/uninstall_chocolately/fig6.remove_chocolately_from_environment4.png "Fig6. Remove Chocolatey from Environment step 4")
 
 
 The Official docs indicate there are four following subject need to be removed.
