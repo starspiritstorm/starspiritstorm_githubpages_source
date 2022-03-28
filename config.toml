@@ -70,10 +70,10 @@ uglyURLs = false
 
 # Modified date
 [frontmatter]
-    date = ['date', 'publishDate', 'lastmod']
-    expiryDate = ['expiryDate']
-    lastmod = [':git', 'lastmod', 'date', 'publishDate']
-    publishDate = ['publishDate', 'date']
+	date = ['date', 'publishDate', 'lastmod']
+	expiryDate = ['expiryDate']
+	lastmod = ["lastmod", ":fileModTime", ":git", ":default"]
+	publishDate = ['publishDate', 'date']
 
 # Markdown renderer
 [markup]
